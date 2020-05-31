@@ -10,8 +10,8 @@ single_cat_title("<h1>", "</h1>");
 $terms = get_the_terms('product_cat', $post->ID);
 echo "<h4>" . category_description(get_category_by_slug($terms)->term_id) . "</h4>"
 ?>
-    <div class="circle light-blue one rellax" data-rellax-speed="-1"></div>
-    <div class="circle light-blue two rellax" data-rellax-speed="2"></div>
+    <div class="circle light-blue one  " data- -speed="-1"></div>
+    <div class="circle light-blue two  " data- -speed="2"></div>
     </header>
     <div class="img-wrapper">
     <?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($loop->post->ID), 'single-post-thumbnail');?>
@@ -89,7 +89,7 @@ wp_reset_query();
 ;?>
 </div>
 <div class="half-circles"></div>
-<div class="circle light-blue one rellax" data-rellax-speed="-1"></div>
+<div class="circle light-blue one  " data- -speed="-1"></div>
 </section>
 
 

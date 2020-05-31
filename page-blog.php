@@ -2,9 +2,9 @@
 
 <section id="blog-banner">
 <?php the_title('<h1>', '</h1>');?>
-<div class="circle light-blue one rellax" data-rellax-speed="2"></div>
-<div class="circle dark-blue two rellax" ></div>
-<div class="circle light-blue three rellax" data-rellax-speed="2"></div>
+<div class="circle light-blue one  " data- -speed="2"></div>
+<div class="circle dark-blue two  " ></div>
+<div class="circle light-blue three  " data- -speed="2"></div>
 <div class="circle light-blue four"></div>
 </section>
 

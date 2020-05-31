@@ -16,9 +16,9 @@ foreach ((get_the_terms($post->ID, 'product_cat')) as $category) {
     <?php the_post_thumbnail();?>
 </div>
 </header>
-<div class="circle light-blue one rellax" data-rellax-speed="2"></div>
-<div class="circle dark-blue two rellax" data-rellax-speed="-1" ></div>
-<div class="circle light-blue three rellax" data-rellax-speed="1"></div>
+<div class="circle light-blue one  " data- -speed="2"></div>
+<div class="circle dark-blue two  " data- -speed="-1" ></div>
+<div class="circle light-blue three  " data- -speed="1"></div>
 <div class="half-circles"></div>
 </section>
 

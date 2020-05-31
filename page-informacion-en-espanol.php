@@ -16,16 +16,16 @@ if (have_posts()) {
     <div class="img-wrapper">
     <?php the_post_thumbnail();?>
     </div>
-    <div class="circle light-blue one rellax" data-rellax-speed="2"></div>
-    <div class="circle light-blue two rellax" data-rellax-speed="-1"></div>
-    <div class="circle light-blue three rellax" data-rellax-speed="1"></div>
-    <div class="circle light-blue four rellax"></div>
+    <div class="circle light-blue one  " data- -speed="2"></div>
+    <div class="circle light-blue two  " data- -speed="-1"></div>
+    <div class="circle light-blue three  " data- -speed="1"></div>
+    <div class="circle light-blue four  "></div>
     <div class="half-circles"></div>
 </section>
 
 <section id="espanol-minor">
     <h4>Nuestra misión es caminar con usted, mano a mano, por todos los pasos de acción necesarios para que pueda superar y recuperarse de sus perdidas emocionales. Nosotros definimos la recuperación como su habilidad a disfrutar memorias placenteras sin sentirse decepcionado por las cosas que desearía hubiesen sido diferentes, mejor o más en la relación que fue dañada o perdida y le está causando dolor emocional.</h4>
-    <div class="circle light-blue one rellax"></div>
+    <div class="circle light-blue one  "></div>
 </section>
 
 <section id="informacion">

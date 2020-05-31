@@ -7,9 +7,9 @@
     <a class="item2" href="#commitment">Our Commitments To You</a>
     <a class="item3" href="#faq">FAQ</a>
 </nav>
-<div class="circle light-blue one rellax" data-rellax-speed="2"></div>
-<div class="circle light-blue two rellax" data-rellax-speed="-1"></div>
-<div class="circle light-blue three rellax" data-rellax-speed="1"></div>
+<div class="circle light-blue one  " data- -speed="2"></div>
+<div class="circle light-blue two  " data- -speed="-1"></div>
+<div class="circle light-blue three  " data- -speed="1"></div>
 <div class="circle light-blue four"></div>
 </section>
 <section id="meet-our-founder" class="anchor1">
@@ -27,7 +27,7 @@ if (have_posts()) {
 }
 ?>
 <div class="half-circles"></div>
-<div class="circle light-blue one rellax" data-rellax-speed="1"></div>
+<div class="circle light-blue one  " data- -speed="1"></div>
 </div>
 </div>
 <div class="quote-container">

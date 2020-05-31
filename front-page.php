@@ -49,13 +49,13 @@ if (have_posts()) {
     </div>
 
     <?php dynamic_sidebar('banner_header');?>
-<div class="circle light-blue one rellax" data-rellax-speed="2"></div>
+<div class="circle light-blue one  " data- -speed="2"></div>
 <div class="circle light-blue two"></div>
-<div class="circle dark-blue three rellax" data-rellax-speed="1"></div>
+<div class="circle dark-blue three  " data- -speed="1"></div>
 <div class="circle light-blue four"></div>
-<div class="circle dark-blue five rellax" data-rellax-speed="2"></div>
+<div class="circle dark-blue five  " data- -speed="2"></div>
 <div class="circle light-blue six"></div>
-<div class="circle light-blue seven rellax" data-rellax-speed="1"></div>
+<div class="circle light-blue seven  " data- -speed="1"></div>
 </section>
 
 <section id="programs">

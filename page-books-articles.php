@@ -16,10 +16,10 @@ if (have_posts()) {
 }
 ?>
 </header>
-<div class="circle light-blue one rellax" data-rellax-speed="2"></div>
+<div class="circle light-blue one  " data- -speed="2"></div>
 <div class="circle light-blue two"></div>
-<div class="circle light-blue three rellax" data-rellax-speed="-1"></div>
-<div class="circle light-blue four rellax" data-rellax-speed="1"></div>
+<div class="circle light-blue three  " data- -speed="-1"></div>
+<div class="circle light-blue four  " data- -speed="1"></div>
 </section>
 
 <section id="books-container">

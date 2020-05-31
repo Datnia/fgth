@@ -17,7 +17,7 @@ if (have_posts()) {
 }
 ?>
         </header>
-        <div class="circle light-blue rellax" data-rellax-speed="1"></div>
+        <div class="circle light-blue  " data- -speed="1"></div>
     </div>
     <div class="major">
     <?php echo do_shortcode('[contact-form-7 id="607" title="Join Our Team"]'); ?>

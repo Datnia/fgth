@@ -49,9 +49,9 @@ echo $the_query->found_posts . ' results found';
                 <a class="item2" href="#posts">Blog Posts</a>
                 <a class="item3"  href="#pages">Pages</a>
             </nav>
-            <div class="circle light-blue one rellax" data-rellax-speed="2"></div>
-            <div class="circle dark-blue two rellax" ></div>
-            <div class="circle light-blue three rellax" data-rellax-speed="2"></div>
+            <div class="circle light-blue one  " data- -speed="2"></div>
+            <div class="circle dark-blue two  " ></div>
+            <div class="circle light-blue three  " data- -speed="2"></div>
             <div class="circle light-blue four"></div>
         </section>
         <section class="content">

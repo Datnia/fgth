@@ -22,6 +22,8 @@ if (strpos($_SERVER['REQUEST_URI'], "free-tools")) {
     include "webinar-thankyou.php";
 }
 
+$url = get_home_url();
+
 ?>
 
 </section>
@@ -100,9 +102,9 @@ if (strpos($_SERVER['REQUEST_URI'], "webinar") || strpos($_SERVER['REQUEST_URI']
 <i class="fas fa-times close-modal"></i>
 <div class="testimonial-video">
       <div class="wrapper">
-        <video controls>
+        <video controls preload="none" poster="<?php echo $url; ?>/wp-content/uploads/2020/05/FGTH-Testimonials_Poster.jpg">
           <source
-            src="https://testdesign.fromgrievingtohealing.com/wp-content/uploads/2020/01/From-Grieving-to-Healing-Testimonials.mp4"
+            src="/wp-content/uploads/2020/01/From-Grieving-to-Healing-Testimonials.mp4"
             type="video/mp4"
           />
         </video>

@@ -7266,6 +7266,12 @@ footer #legal {
   z-index: -1;
 }
 
+@media screen and (max-width: 768px) {
+  #testimonials .col-container .circle.one {
+    display: none;
+  }
+}
+
 #testimonials .col-container .circle.two {
   bottom: 7px;
   right: 300px;
@@ -11619,11 +11625,11 @@ footer #legal {
   .circle {
     width: 15px;
     height: 15px;
+    display: none;
   }
 
   .half-circles {
-    width: 50px;
-    height: 50px;
+    display: none;
   }
 
   #about-banner .circle.two {

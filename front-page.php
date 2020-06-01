@@ -216,7 +216,7 @@ if (have_posts()) {
 
 <div class="testimonial-video">
   <div class="wrapper">
-  <video controls>
+  <video controls preload="none" poster="<?php echo $url; ?>/wp-content/uploads/2020/05/FGTH-Testimonials_Poster.jpg">
   <source src="<?php echo $url; ?>/wp-content/uploads/2020/01/From-Grieving-to-Healing-Testimonials.mp4" type="video/mp4" />
 </video>
   <div class="content">

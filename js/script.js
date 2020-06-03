@@ -1009,5 +1009,5 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready(function($) {
   $('form').attr('autocomplete', 'off');
-  $('#contact input, .woocommerce-checkout input').val('')
+  $('#contact input:not(.btn), .woocommerce-checkout input:not(.btn)').val('')
 })

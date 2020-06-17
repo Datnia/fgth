@@ -5197,6 +5197,12 @@ span.privacy-text {
   padding: 15px 30px;
 }
 
+@media screen and (max-width: 768px) {
+  #opted .container .btn {
+    margin-top: 2em;
+  }
+}
+
 #opted .container:before {
   content: "";
   position: absolute;
@@ -5241,6 +5247,16 @@ span.privacy-text {
 #opted .major .wrapper {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  #opted .major .wrapper {
+    flex-direction: column;
+  }
+
+  #opted .major .wrapper .img-wrapper {
+    min-width: 80% !important;
+  }
 }
 
 #opted .major .wrapper .img-wrapper {
@@ -9943,7 +9959,7 @@ footer #legal {
   }
 
   #banner .banner-section .major form .tve_submit_container {
-    position: absolute;
+    position: absolute !important;
     left: 0;
     right: 0;
     bottom: 0;
